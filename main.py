@@ -170,4 +170,10 @@ else:
     st.info("Henüz bir hesap hareketi bulunmuyor.")
 
 st.markdown(
+"""
+<div style="text-align: center; margin-top: 50px; font-size: 11px; opacity: 0.6;">
+⚠️ This is a <b>VakıfBank Mobile Interface Simulation</b>. It has no connection to real banking systems and does not perform any actual money transfers.
+</div>
+""", unsafe_allow_html=True
+)
 
