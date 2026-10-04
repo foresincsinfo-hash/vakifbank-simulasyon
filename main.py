@@ -170,4 +170,4 @@ else:
     st.info("Henüz bir hesap hareketi bulunmuyor.")
 
 st.markdown(
-    """
+
