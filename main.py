@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -169,4 +169,5 @@ if st.session_state.history:
 else:
     st.info("Henüz bir hesap hareketi bulunmuyor.")
 
- 
+st.markdown(
+    """
